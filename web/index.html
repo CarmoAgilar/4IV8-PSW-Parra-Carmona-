@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/1ff3fcc7d1.js" crossorigin="anonymous"></script>
+    <script language="JavaScript" type="text/JavaScript" src="js/validacion.js"></script>
+    <title>Inicio</title>
+</head>
+
+<body style="background-image: url('css/img/89-892560_ice-cream-images-hd.jpg');">
+
+
+    <div class="login-box">
+        <h1>Inicio de Sesion</h1>
+        <form name="formulario" method="get" action="Iniciar" onsubmit="return validarRegistro(this)">
+        <div class="textbox">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="Usuario" name="nom_inicio" value="">
+        </div>
+
+        <div class="textbox">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Contraseña" name="password_inicio" value="">
+        </div>
+        
+        <input class="boton" type="submit" name="Iniciar" value="Iniciar Sesion">
+        
+        <a href="Registrarme.html"><input class="boton" type="button" name="Registro" value="Registrarse"></a>
+        
+        <a href="Admin.html"><input class="boton" type="button" name="Ingresar como Admin" value="Ingresar como Administrador"></a>
+      
+        </form>
+
+  <footer style="padding-top: 300px; font-size: 11px;">
+      <ul>
+          <li>Carmona Aguilar Diego</li>
+          <li>Parra Rivas Arturo Gabriel</li>
+      </ul>
+  </footer> 
+    </div>
+
+    
+</body>
+</html>

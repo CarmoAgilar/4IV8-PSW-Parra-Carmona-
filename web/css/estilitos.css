@@ -1,0 +1,110 @@
+/*----- Tienda -----*/
+
+html{
+    scroll-behavior: smooth;
+}
+
+.page-nav{
+    border: 1px solid rgba(138, 43, 226, 0.452);
+    background-color: rgba(138, 43, 226, 0.452);
+}
+
+section img{
+    margin-left: 2%;
+}
+body{
+    margin: 0px;
+    padding: 0;
+    background-image:  url(img/depositphotos_69187225-stock-illustration-hand-drawn-ice-cream-pattern.jpg);
+    font-family: sans-serif;
+    
+}
+h3{
+    font-size: 20px;
+    border-bottom: 6px solid blueviolet;
+    margin-bottom: 50px;
+}
+h4{
+    font-size: 20px;
+    border-bottom: 6px solid blueviolet;
+    margin-bottom: 50px;
+}
+.item-image{
+    width: 300px;
+    background-color: blueviolet;
+    border-radius: 9px;
+    margin-right: 10px;
+}
+.product-conteiner:hover{
+    box-shadow: 0 8px 16px 0 rgba(138, 43, 226, 0.452);
+}
+.product-conteiner{
+    padding: 2px 16px;
+    border-radius: 8px;
+    background-color: rgba(0, 225, 255, 0.596);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    transition-duration: 0.4s;
+    vertical-align: middle;
+    text-align: center;
+    justify-content: space-evenly;
+}
+div button{
+    margin-bottom: 30px;
+    background: blueviolet;
+    color: white;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    border: none;
+    height: 40px;
+    padding: 8px 20px;
+    bottom: 0px;
+
+}
+button:hover{
+    background-color: rgb(26, 126, 240);
+    color: white;
+}
+button a{
+    color: white;
+}
+button a:hover{
+    color: white;
+}
+.my-fixed-item {
+    position: fixed;
+    min-height: 120px;
+    width: 252px;
+    text-align: center;
+    word-wrap: break-word;
+    margin-left: 60%;
+}
+.category_list{
+    text-align: center;
+}
+.category_list button{
+    margin-left: 3%;
+}
+
+
+
+/*----- Carrito -----*/
+.shopping-cart-items {
+    padding: 20px 0px;
+  }
+  
+  .shopping-cart-image {
+    max-width: 80px;
+    border-radius: 8px;
+  }
+  
+  .shopping-cart-quantity-input {
+    max-width: 45px;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  .shopping-cart-total {
+    min-height: 96px;
+  }
