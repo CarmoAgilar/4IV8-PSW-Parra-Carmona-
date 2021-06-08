@@ -1,0 +1,3 @@
+Contraseña de administrador:
+
+bebeconmetralleta
